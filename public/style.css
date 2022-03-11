@@ -1,0 +1,77 @@
+body{
+    margin: 0%;
+    font-family: poppins,sans-serif;
+}
+
+*{
+    margin: 0%;
+}
+
+nav{
+    background-color: #E85858;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 15px;
+}
+.container{
+    max-width: 999px;
+    margin: 40px auto;
+}
+
+.locationList{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+.loca-img{
+    border-radius: 8px;
+    height:250px;
+    width:200px;
+}
+
+.tagline{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.japan{
+    margin-left:5px;
+    margin-right: 20px;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+.maps{
+    color: #ababab;
+    text-decoration: underline;
+    font-size: 18px;
+    cursor: pointer;
+}
+.information{
+    margin-left: 30px;
+}
+
+.information > h2{
+    font-size: 28px;
+}
+
+.information > h4{
+    /* font-size: 28px; */
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 560;
+}
+
+.information p{
+    font-size: 18px;
+    color: rgb(112, 112, 112);
+    font-weight: 400;
+}
